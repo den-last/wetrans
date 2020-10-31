@@ -56,32 +56,32 @@
     line-height: 20px;
     font-size: 16px;
     background: #ffffff;
-    color: #e3783e;
+    color: #fe533d;
     text-decoration: none;
     font-weight: normal;
 }
 
 .mobile_menu_container ul li a.parent {
     padding-right: 50px;
-    background: #ffffff url("../img/icons/arrow_right.svg") right 20px center no-repeat;
+    background: #ffffff url("../icons/arrow_right.svg") right 20px center no-repeat;
     background-size: 20px;
 }
 
 .mobile_menu_container ul li a.parent:hover {
-    background: #ffffff url("../img/icons/arrow_right.svg") right 20px center no-repeat;
+    background: #ffffff url("../icons/arrow_right.svg") right 20px center no-repeat;
     background-size: 20px;
 }
 
 .mobile_menu_container ul li a.back {
     padding-left: 50px;
-    background: #ffffff url("../img/icons/arrow_left.svg") left 20px center no-repeat;
+    background: #ffffff url("../icons/arrow_left.svg") left 20px center no-repeat;
     background-size: 20px;
     box-sizing: border-box;
     min-height: 50px;
 }
 
 .mobile_menu_container ul li a.back:hover {
-    background: #ffffff url("../img/icons/arrow_left.svg") left 20px center no-repeat;
+    background: #ffffff url("../icons/arrow_left.svg") left 20px center no-repeat;
     background-size: 20px;
 }
 
