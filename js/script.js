@@ -74,17 +74,32 @@ $(document).ready(function() {
 function PopUpShow() {
     $("#popup1").show();
 }
+function PopUpShow2() {
+    $("#popup2").show();
+}
 //Функция скрытия PopUp
 function PopUpHide() {
     $("#popup1").hide();
+}
+function PopUpHide2() {
+    $("#popup2").hide();
 }
 
 $('.close_info1').click(function() {
     PopUpHide();
 });
+$('.close_info1').click(function() {
+    PopUpHide2();
+});
+// $('.close_info1').click(function() {
+//     PopUpHide();
+// });
 
-$('.call').click(function() {
+$('.privShow').click(function() {
     PopUpShow();
+});
+$('.contactUs').click(function() {
+    PopUpShow2();
 });
 let inputs = document.querySelectorAll('.input__file');
 Array.prototype.forEach.call(inputs, function(input) {
